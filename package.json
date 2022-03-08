@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Kamol-Paul/NodeJsLab/issues"
   },
-  "homepage": "https://github.com/Kamol-Paul/NodeJsLab#readme"
+  "homepage": "https://github.com/Kamol-Paul/NodeJsLab#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
