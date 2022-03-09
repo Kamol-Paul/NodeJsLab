@@ -3,12 +3,14 @@ const http = require('http');
 const morgan = require('morgan');
 
 const dishRouter = require('./routes/dishRouter'); 
+const ladderRouter = require('./routes/ladderRouter'); 
 
 const hostname = 'localhost';
 const port = 3000;
 
 const app = express();
 app.use('/dishes', dishRouter);
+app.use('/ladder', ladderRouter);
 
 app.use(morgan('dev'));
 app.use(express.static(__dirname + '/public/'));
